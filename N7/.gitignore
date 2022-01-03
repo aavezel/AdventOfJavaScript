@@ -1,0 +1,11 @@
+node_modules
+public/build
+dist
+
+
+.DS_Store
+.vscode
+
+logs
+*.log
+
