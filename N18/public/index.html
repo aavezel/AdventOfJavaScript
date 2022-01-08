@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>18 - Password Generator || Advent of JavaScript</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+
+  <div class="wrapper" id="wrapper">
+  </div>
+
+  <script src="app.js"></script>
+  <script type="text/javascript">
+    var app = Elm.Main.init({
+      node: document.getElementById('wrapper')
+    });
+    app.ports.callCopy.subscribe(function(password) {
+      navigator.clipboard.writeText(password)
+    });
+  </script>
+</body>
+
+</html>

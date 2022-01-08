@@ -1,0 +1,12 @@
+{
+  "name": "n18",
+  "version": "1.0.0",
+  "license": "MIT",
+  "devDependencies": {
+    "elm": "^0.19.1-5"
+  },
+  "scripts": {
+    "start": "elm reactor",
+    "make": "elm make src/Main.elm --optimize --output=public/app.js"
+  }
+}
