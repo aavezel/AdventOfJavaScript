@@ -1,0 +1,74 @@
+{
+	"folders": [
+		{
+			"path": "N21"
+		},
+		{
+			"path": "N20"
+		},
+		{
+			"path": "N19"
+		},
+		{
+			"path": "N18"
+		},
+		{
+			"path": "N16"
+		},
+		{
+			"path": "N17"
+		},
+		{
+			"path": "N3"
+		},
+		{
+			"path": "N15"
+		},
+		{
+			"path": "N14"
+		},
+		{
+			"path": "N13"
+		},
+		{
+			"path": "N11"
+		},
+		{
+			"path": "N10"
+		},
+		{
+			"path": "N9"
+		},
+		{
+			"path": "N8"
+		},
+		{
+			"path": "N7"
+		},
+		{
+			"path": "N6"
+		},
+		{
+			"path": "N5"
+		},
+		{
+			"path": "N4"
+		},
+		{
+			"path": "N2"
+		},
+		{
+			"path": "N1"
+		},
+		{
+			"path": "N12"
+		}
+    ],
+    "settings": {
+        "workbench.colorCustomizations": {
+            "statusBar.background": "#a79c21",
+            "statusBar.foreground": "#ffffff",
+            "statusBarItem.hoverBackground": "#beb012"
+        }
+    }
+}

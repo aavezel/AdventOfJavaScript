@@ -15,11 +15,10 @@ function currentItemStore() {
 export const currentItem = currentItemStore();
 
 
-export const items = readable([], (set) => {
-    getItems().then((items) => {
-        set(items)
-        if (items.length > 0) {
-            currentItem.setItemId(items[0].id);
-        }
-    });
+export const items = readable([], async (set) => {
+    const items = await getItems();
+    set(items)
+    if (items.length > 0) {
+        currentItem.setItemId(items[0].id);
+    }
 });

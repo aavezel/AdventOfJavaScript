@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyPlugin = require("copy-webpack-plugin");
 
-module.exports = (env) => {
+module.exports = () => {
     const devServer = {
         historyApiFallback: true,
         proxy: {},
@@ -63,7 +63,7 @@ module.exports = (env) => {
         plugins,
         resolve,
         output: {
-            path: path.join(__dirname, "/dist"),
+            path: path.join(__dirname, "dist"),
             filename: "index_bundle.js",
         },
     };
