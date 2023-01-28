@@ -1,0 +1,21 @@
+{
+  "name": "simplified-budget",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "node esbuild.serve.js -w",
+    "build": "node esbuild.build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "effector": "^22.2.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.23",
+    "esbuild-serve": "^1.0.1",
+    "live-server": "^1.2.1"
+  }
+}

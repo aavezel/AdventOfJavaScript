@@ -1,0 +1,29 @@
+.summary-panel {
+    background: white;
+    color: black;
+    padding: 48px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-label {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 27px;
+    color: #323645;
+}
+
+.summary-amount {
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 81px;
+}
+
+.summary-amount.positive {
+    color: var(--positive)
+}
+
+.summary-amount.negative {
+    color: var(--negative)
+}
