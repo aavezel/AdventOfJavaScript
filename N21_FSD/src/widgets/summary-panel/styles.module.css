@@ -1,0 +1,35 @@
+.container {
+  background: white;
+  color: black;
+
+  padding: 48px 125px;
+  display: flex;
+  justify-content: space-between;
+
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  color: #323645;
+}
+
+.amount {
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 81px;
+}
+
+.amountPositive {
+  color: var(--positive)
+}
+
+.amountNegative {
+  color: var(--negative)
+}

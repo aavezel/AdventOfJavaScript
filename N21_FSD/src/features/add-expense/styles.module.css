@@ -1,0 +1,11 @@
+.addExpense {
+  margin: 120px 0;
+  display: flex;
+  gap: 24px;
+}
+
+.addExpenseButton {
+  border: none;
+  background: none;
+  cursor: pointer;
+}

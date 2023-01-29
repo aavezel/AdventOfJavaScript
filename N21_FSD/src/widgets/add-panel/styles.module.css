@@ -1,0 +1,9 @@
+.addPanel {
+    background: #282A37;
+    padding: 170px 125px 180px;
+  }
+
+  .header {
+    font-size: 3rem;
+    font-weight: bold;
+  }
